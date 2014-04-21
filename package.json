@@ -1,0 +1,28 @@
+{
+  "name": "kodak",
+  "version": "0.0.0",
+  "description": "Take screenshots of a website and upload the results to s3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:seanzawi/kodak.git"
+  },
+  "keywords": [
+    "saucelabs",
+    "s3",
+    "screenshots"
+  ],
+  "author": "Sean Zawicki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seanzawi/kodak/issues"
+  },
+  "homepage": "https://github.com/seanzawi/kodak",
+  "dependencies": {
+    "sauce-tunnel": "^2.0.4",
+    "soda": "^0.2.5"
+  }
+}
